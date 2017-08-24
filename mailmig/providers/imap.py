@@ -39,7 +39,7 @@ class ImapProvider(object):
 
         return self.imap_client
 
-    def list_folders(self, directory=None, pattern=None):
+    def list_folders(self, directory='""', pattern='*'):
         list_re = r'\((?P<flags>.*?)\) "(?P<sep>.*)" "(?P<name>.*)"'
 
         self._check_connection()

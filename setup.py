@@ -25,10 +25,11 @@ pkg_requirements=[
     'requests',
     'imaplib2',
     'simplejson',
-    'sqlitedict']
+    'sqlitedict',
+    'sqlenv']
 pkg_keywords = 'mail sync imap migration smartermail smartertools zoho',
-from mailmig import __version__ as pkg_version
 
+from mailmig import import __version__ as pkg_version
 
 setup(
     name=pkg_name,

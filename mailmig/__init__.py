@@ -13,3 +13,4 @@ __version__ = '1.0.0'
 from mailmig.errors import MailMigError
 from mailmig.providers import ImapProvider
 from mailmig.logger import get_logger
+from mailmig.models import ImapAccount, MailMigration, Email, setup_sa
