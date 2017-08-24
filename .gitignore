@@ -1,0 +1,10 @@
+# temporary or extraneous files
+.*.sw[po]
+*.py[co]
+.DS_Store
+*.egg-info
+
+# local content
+.ipy_sqdb.sqlite
+.local/
+.ropeproject/

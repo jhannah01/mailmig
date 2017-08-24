@@ -1,0 +1,7 @@
+beautifultable
+beautifulsoup4
+requests
+ipython<6.0
+imaplib2
+simplejson
+sqlitedict
