@@ -19,16 +19,18 @@ except Exception:
 
 pkg_name = 'mailmig'
 pkg_description = 'A python-based mail migration and syncing solution'
-pkg_requirements=[
+pkg_requirements = [
     'beautifultable',
     'beautifulsoup4',
     'requests',
     'imaplib2',
     'simplejson',
     'sqlitedict',
-    'py-dateutil']
+    'py-dateutil',
+    'sqlenv']
 pkg_keywords = 'mail sync imap migration smartermail smartertools zoho',
 pkg_version = '1.0.1'
+pkg_keywords = 'mail sync imap migration smartermail smartertools zoho',
 
 setup(
     name=pkg_name,
@@ -50,8 +52,7 @@ setup(
     keywords=pkg_keywords,
     packages=find_packages(exclude=['contrib', 'docs', 'tests', '.local']),
     install_requires=pkg_requirements,
-    #entry_points={
-    #    'console_scripts': ['mailmig=mailmig.cli:run_clitool']
-    #}
+    entry_points={
+        'console_scripts': ['mailmig=mailmig.cli:run_clitool']
+    }
 )
-
