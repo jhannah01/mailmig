@@ -8,7 +8,7 @@ Author: Jon Hannah <jon@commtest99.org>
 '''
 
 
-from mailmig.errors import MailMigError, CliError
+from mailmig.errors import MailMigError, CLIError
 from mailmig.cli import CLITool, run_clitool
 from mailmig.providers import ImapProvider
 from mailmig.logger import get_logger

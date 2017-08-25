@@ -5,7 +5,7 @@ import sys
 import os
 import getpass
 
-from mailmig.errors import CliError
+from mailmig.errors import CLIError
 
 
 class CLITool(object):
