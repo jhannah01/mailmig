@@ -1,7 +1,7 @@
 beautifultable
 beautifulsoup4
 requests
-ipython<6.0
+IPython>=8.10
 imaplib2
 simplejson
 sqlitedict
